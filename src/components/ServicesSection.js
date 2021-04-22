@@ -2,11 +2,9 @@ import React from "react";
 
 import home2 from "../img/home2.png";
 
-//Styles
 import styled from "styled-components";
-import { About, Description, Image, Hide } from "../styles";
+import { About, Description, Image } from "../styles";
 
-// Import Icons
 import clock from "../img/clock.svg";
 import diaphragm from "../img/diaphragm.svg";
 import money from "../img/money.svg";
@@ -74,6 +72,10 @@ const Cards = styled.div`
 
 const Card = styled.div`
   flex-basis: 20rem;
+  /* border: 1px solid white; */
+  border-radius: 1rem;
+  /* padding: 2rem; */
+  /* margin: 2rem; */
   .icon {
     display: flex;
     align-items: center;
